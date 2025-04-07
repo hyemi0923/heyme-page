@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 웹페이지 설명 -->
+    <meta
+      name="description"
+      content="김혜미의 포트폴리오 웹사이트입니다. 반응형 웹 디자인, 웹 퍼블리싱, 영상 편집 등 다양한 작업물을 확인하실 수 있습니다."
+    />
+    <!-- 웹페이지와 관련된 키워드를 정의 -->
+    <meta
+      name="keywords"
+      content="반응형, 웹퍼블리싱, 웹퍼블리셔, 영상, 멀티미디어, 영상편집, 포트폴리오, 웹디자인"
+    />
+    <!-- 검색 엔진 크롤링 설정 -->
+    <meta name="robots" content="index, follow" />
+    <!-- canonical URL -->
+    <link rel="canonical" href="" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 사용되는 제목 -->
+    <meta property="og:title" content="김혜미의 포트폴리오 웹사이트" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 표시되는 사이트 이름 -->
+    <meta property="og:site_name" content="김혜미의 웹사이트" />
+    <!-- 소셜 미디어에서 페이지가 웹사이트임을 명시 -->
+    <meta property="og:type" content="website" />
+    <!-- Open Graph 프로토콜에서 사용되는 메타 태그의 속성 중 하나로, 페이지의 간략한 설명을 제공하는 데 사용 -->
+    <!-- 소셜 미디어에서 공유될 때 사용되는 URL -->
+    <meta property="og:url" content="" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 표시되는 이미지 -->
+    <meta property="og:image" content="/img/preview-img.png" />
+    <!-- 소셜 미디어에서 페이지가 공유될 때 사용되는 설명 -->
+    <meta
+      property="og:description"
+      content="김혜미의 포트폴리오 웹사이트입니다. 반응형 웹 디자인, 웹 퍼블리싱, 영상 편집 등 다양한 작업물을 확인하실 수 있습니다."
+    />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="/img/preview-img.png" />
+    <meta name="twitter:title" content="김혜미의 포트폴리오 웹사이트" />
+    <meta
+      name="twitter:description"
+      content="Andrew의 포트폴리오 웹사이트입니다. 반응형 웹 디자인, 웹 퍼블리싱, 영상 편집 등 다양한 작업물을 확인하실 수 있습니다."
+    />
+    <meta name="twitter:image" content="/img/preview-img.png" />
+
+    <title>Hey._.Me</title>
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/4505f27e97.js" crossorigin="anonymous"></script>
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Gugi&family=Hi+Melody&family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet" />
+    <style>
+      @font-face {
+        font-family: "Ownglyph_corncorn-Rg";
+        src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2")
+          format("woff2");
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <div class="inner-head">
+          <ul>
+            <li><a href="/">HOME</a></li>
+            <li><a href="#sect2">ABOUT</a></li>
+            <li><a href="#sect3">PORTFOLIO</a></li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <section id="sect1" class="sect1-main">
+          <div class="inner">
+            <!-- <h5>HOME</h5> -->
+            <div class="inner-video">
+              <video autoplay muted loop>
+                <source src="public/videos/first-section-video.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <!-- <div class="scroll-down">
+              <h5>Scroll Down</h5>
+              <img src="img/downscroll.svg" alt="downscroll" />
+            </div> -->
+          </div>
+        </section>
+        <section id="sect2" class="sect2-about">
+          <div class="inner">
+            <h2 class="animate">ABOUT</h2>
+            <div class="wrap">
+              <div class="left">
+                <div class="group">
+                  <img src="img/face.png" alt="icon" class="aos-init animate" />
+                  <div class="chat-aos-init animate">
+                    <p>김혜미</p>
+                  </div>
+                </div>
+                <div class="group">
+                  <div class="chat-aos-init animate">
+                    <p>1996.09.23</p>
+                  </div>
+                  <img src="img/cake.png" alt="icon" class="aos-init animate" />
+                </div>
+                <div class="group">
+                  <img src="img/e mail.png" alt="icon" class="aos-init animate" />
+                  <div class="chat-aos-init animate">
+                    <p>khm09230@naver.com</p>
+                  </div>
+                </div>
+                <div class="group">
+                  <div class="chat-aos-init animate">
+                    <p>010 - 2996 - 5960</p>
+                  </div>
+                  <img src="img/telephone.png" alt="icon" class="aos-init animate" />
+                </div>
+              </div>
+              <div class="right animate">
+                <img src="img/hyemi 2.png" alt="img" class="aos-init" />
+                <a
+                  href="https://simplistic-city-fba.notion.site/19d9294a657b80b79dbec1b42ae3e1c7?pvs=4"
+                  target="_blank"
+                  >👆🏻더 알아보기</a
+                >
+              </div>
+            </div>
+            <div class="use-tool">
+              <img src="/img/use-tool 1.png" alt="Use Tool" class="default animate" />
+              <img src="/img/use-tool 2.png" alt="Use Tool Hover" class="hover" />
+            </div>
+          </div>
+        </section>
+        <section id="sect3" class="sect3-portfolio">
+          <div class="inner">
+            <h2 class="animate">PORTFOLIO</h2>
+
+            <img src="img/pinkTV.png" alt="portfolio" class="tv-frame animate" />
+            <div class="tv-bg"></div>
+            <div class="monitor animate">
+              <div class="video-container">
+                <div class="swiper video-sw">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <iframe
+                        src="https://drive.google.com/file/d/1DC0wZXwTG327ZCl0W8zAXJn6sY-a1iXq/preview"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                      <iframe
+                        src="https://drive.google.com/file/d/1GPTZU8mfK9GLMp6WcMHlUdWSqh0TDtZ8/preview"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                      <iframe
+                        src="https://drive.google.com/file/d/1V8rWDFCMfgr6X1nMculuN2M49IlzboSJ/preview"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                      <iframe
+                        src="https://drive.google.com/file/d/1dFJU6tiR40IlRznEnHiLj-pMosDaL26F/preview"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                      <iframe
+                        src="https://drive.google.com/file/d/1dRHXZKB4R7pujWlmm_tjWeDnZBQLuPRi/preview"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                      <iframe
+                        src="https://drive.google.com/file/d/1Q7INp77qxk9DAGYM4-ochjR6jFftuf4l/preview"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div class="swiper-slide">
+                      <iframe
+                        src="https://drive.google.com/file/d/1q1BsRxt8aFKQeNRQ_SivL0fJcrL9jCNn/preview"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+
+                    <!-- <div class="swiper-button-next"></div> -->
+                    <!-- <div class="nextBtn">NEXT</div> -->
+                    <!-- <div class="swiper-button-prev"></div> -->
+                  </div>
+                </div>
+              </div>
+
+              <div class="nextBtn">></div>
+              <div class="prevBtn"><</div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="logo">
+          <a href="#">Hey._.Me</a>
+        </div>
+        <div class="copy">
+          본 사이트는 개인 포트폴리오 사이트로 제작되었으며, 상업적 목적이 아닙니다. <br />
+          Copyright 2025 hyemi. All rights reserved.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
